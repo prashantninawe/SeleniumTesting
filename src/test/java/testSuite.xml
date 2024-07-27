@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Selenium Test Suite V-1.0" verbose="0">
+    <test thread-count="5" name="Surefire test" verbose="0">
+        <classes>
+            <class name="alerts.AlertTests"/>
+            <class name="contextMenu.ContextMenuTests"/>
+            <class name="dropdown.DropdownTests"/>
+            <class name="fileUpload.FileUploadTests"/>
+            <class name="frames.FrameTests"/>
+            <class name="horizontalSlider.SliderTests"/>
+            <class name="hover.HoverTests"/>
+            <class name="keyPresses.KeyTests"/>
+            <class name="login.LoginTests"/>
+            <class name="wait.WaitTests"/>
+        </classes>
+    </test> <!-- Surefire test -->
+</suite> <!-- Surefire suite -->

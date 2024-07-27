@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[launching internet herokuapp website]]>
+    </line>
+    <line>
+      <![CDATA[tearDown method - chromedriver shutdown]]>
+    </line>
+    <line>
+      <![CDATA[launching internet herokuapp website]]>
+    </line>
+    <line>
+      <![CDATA[tearDown method - chromedriver shutdown]]>
+    </line>
+    <line>
+      <![CDATA[launching internet herokuapp website]]>
+    </line>
+    <line>
+      <![CDATA[tearDown method - chromedriver shutdown]]>
+    </line>
+    <line>
+      <![CDATA[launching internet herokuapp website]]>
+    </line>
+    <line>
+      <![CDATA[tearDown method - chromedriver shutdown]]>
+    </line>
+    <line>
+      <![CDATA[launching internet herokuapp website]]>
+    </line>
+    <line>
+      <![CDATA[tearDown method - chromedriver shutdown]]>
+    </line>
+    <line>
+      <![CDATA[launching internet herokuapp website]]>
+    </line>
+    <line>
+      <![CDATA[tearDown method - chromedriver shutdown]]>
+    </line>
+    <line>
+      <![CDATA[launching internet herokuapp website]]>
+    </line>
+    <line>
+      <![CDATA[tearDown method - chromedriver shutdown]]>
+    </line>
+    <line>
+      <![CDATA[launching internet herokuapp website]]>
+    </line>
+    <line>
+      <![CDATA[tearDown method - chromedriver shutdown]]>
+    </line>
+    <line>
+      <![CDATA[launching internet herokuapp website]]>
+    </line>
+    <line>
+      <![CDATA[tearDown method - chromedriver shutdown]]>
+    </line>
+    <line>
+      <![CDATA[launching internet herokuapp website]]>
+    </line>
+    <line>
+      <![CDATA[going back to home page]]>
+    </line>
+    <line>
+      <![CDATA[tearDown method - chromedriver shutdown]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-07-27T23:12:26 IST" name="Selenium Test Suite V-1.0" finished-at="2024-07-27T23:13:36 IST" duration-ms="70538">
+    <groups>
+    </groups>
+    <test started-at="2024-07-27T23:12:26 IST" name="Surefire test" finished-at="2024-07-27T23:13:36 IST" duration-ms="70538">
+      <class name="keyPresses.KeyTests">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:keyPresses.KeyTests@1d119efb]" started-at="2024-07-27T23:13:02 IST" name="launchApplication" finished-at="2024-07-27T23:13:06 IST" duration-ms="3440" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[launching internet herokuapp website]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="keyTest()[pri:0, instance:keyPresses.KeyTests@1d119efb]" started-at="2024-07-27T23:13:06 IST" name="keyTest" finished-at="2024-07-27T23:13:06 IST" duration-ms="367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- keyTest -->
+        <test-method signature="testPi()[pri:0, instance:keyPresses.KeyTests@1d119efb]" started-at="2024-07-27T23:13:06 IST" name="testPi" finished-at="2024-07-27T23:13:06 IST" duration-ms="193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPi -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:keyPresses.KeyTests@1d119efb]" started-at="2024-07-27T23:13:06 IST" name="tearDown" finished-at="2024-07-27T23:13:06 IST" duration-ms="91" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[tearDown method - chromedriver shutdown]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- keyPresses.KeyTests -->
+      <class name="frames.FrameTests">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:frames.FrameTests@69b2283a]" started-at="2024-07-27T23:12:45 IST" name="launchApplication" finished-at="2024-07-27T23:12:49 IST" duration-ms="3407" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[launching internet herokuapp website]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="testFrameText()[pri:0, instance:frames.FrameTests@69b2283a]" started-at="2024-07-27T23:12:49 IST" name="testFrameText" finished-at="2024-07-27T23:12:54 IST" duration-ms="5144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFrameText -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:frames.FrameTests@69b2283a]" started-at="2024-07-27T23:12:54 IST" name="tearDown" finished-at="2024-07-27T23:12:54 IST" duration-ms="107" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[tearDown method - chromedriver shutdown]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- frames.FrameTests -->
+      <class name="wait.WaitTests">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:wait.WaitTests@76908cc0]" started-at="2024-07-27T23:13:21 IST" name="launchApplication" finished-at="2024-07-27T23:13:24 IST" duration-ms="3429" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[launching internet herokuapp website]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="testWaitUntilHidden()[pri:1, instance:wait.WaitTests@76908cc0]" started-at="2024-07-27T23:13:24 IST" name="testWaitUntilHidden" finished-at="2024-07-27T23:13:30 IST" duration-ms="5675" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWaitUntilHidden -->
+        <test-method signature="testWaitUntilVisible()[pri:2, instance:wait.WaitTests@76908cc0]" started-at="2024-07-27T23:13:30 IST" name="testWaitUntilVisible" finished-at="2024-07-27T23:13:36 IST" duration-ms="6012" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[going back to home page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testWaitUntilVisible -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:wait.WaitTests@76908cc0]" started-at="2024-07-27T23:13:36 IST" name="tearDown" finished-at="2024-07-27T23:13:36 IST" duration-ms="137" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[tearDown method - chromedriver shutdown]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- wait.WaitTests -->
+      <class name="dropdown.DropdownTests">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:dropdown.DropdownTests@5223e5ee]" started-at="2024-07-27T23:12:34 IST" name="launchApplication" finished-at="2024-07-27T23:12:38 IST" duration-ms="3387" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[launching internet herokuapp website]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="testSelectOption()[pri:0, instance:dropdown.DropdownTests@5223e5ee]" started-at="2024-07-27T23:12:38 IST" name="testSelectOption" finished-at="2024-07-27T23:12:38 IST" duration-ms="394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectOption -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dropdown.DropdownTests@5223e5ee]" started-at="2024-07-27T23:12:38 IST" name="tearDown" finished-at="2024-07-27T23:12:38 IST" duration-ms="105" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[tearDown method - chromedriver shutdown]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- dropdown.DropdownTests -->
+      <class name="login.LoginTests">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:login.LoginTests@659a969b]" started-at="2024-07-27T23:13:06 IST" name="launchApplication" finished-at="2024-07-27T23:13:10 IST" duration-ms="3476" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[launching internet herokuapp website]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="testSuccessfulLogin()[pri:0, instance:login.LoginTests@659a969b]" started-at="2024-07-27T23:13:10 IST" name="testSuccessfulLogin" finished-at="2024-07-27T23:13:21 IST" duration-ms="10922" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:login.LoginTests@659a969b]" started-at="2024-07-27T23:13:21 IST" name="tearDown" finished-at="2024-07-27T23:13:21 IST" duration-ms="126" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[tearDown method - chromedriver shutdown]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- login.LoginTests -->
+      <class name="fileUpload.FileUploadTests">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:fileUpload.FileUploadTests@bef2d72]" started-at="2024-07-27T23:12:38 IST" name="launchApplication" finished-at="2024-07-27T23:12:42 IST" duration-ms="3451" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[launching internet herokuapp website]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="testFileUpload()[pri:0, instance:fileUpload.FileUploadTests@bef2d72]" started-at="2024-07-27T23:12:42 IST" name="testFileUpload" finished-at="2024-07-27T23:12:45 IST" duration-ms="3473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFileUpload -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:fileUpload.FileUploadTests@bef2d72]" started-at="2024-07-27T23:12:45 IST" name="tearDown" finished-at="2024-07-27T23:12:45 IST" duration-ms="108" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[tearDown method - chromedriver shutdown]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- fileUpload.FileUploadTests -->
+      <class name="contextMenu.ContextMenuTests">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:contextMenu.ContextMenuTests@78b66d36]" started-at="2024-07-27T23:12:30 IST" name="launchApplication" finished-at="2024-07-27T23:12:34 IST" duration-ms="3406" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[launching internet herokuapp website]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="testRightClick()[pri:0, instance:contextMenu.ContextMenuTests@78b66d36]" started-at="2024-07-27T23:12:34 IST" name="testRightClick" finished-at="2024-07-27T23:12:34 IST" duration-ms="451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRightClick -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:contextMenu.ContextMenuTests@78b66d36]" started-at="2024-07-27T23:12:34 IST" name="tearDown" finished-at="2024-07-27T23:12:34 IST" duration-ms="93" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[tearDown method - chromedriver shutdown]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- contextMenu.ContextMenuTests -->
+      <class name="hover.HoverTests">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:hover.HoverTests@6fe7aac8]" started-at="2024-07-27T23:12:58 IST" name="launchApplication" finished-at="2024-07-27T23:13:01 IST" duration-ms="3415" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[launching internet herokuapp website]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="testHover()[pri:0, instance:hover.HoverTests@6fe7aac8]" started-at="2024-07-27T23:13:01 IST" name="testHover" finished-at="2024-07-27T23:13:02 IST" duration-ms="679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHover -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:hover.HoverTests@6fe7aac8]" started-at="2024-07-27T23:13:02 IST" name="tearDown" finished-at="2024-07-27T23:13:02 IST" duration-ms="106" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[tearDown method - chromedriver shutdown]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- hover.HoverTests -->
+      <class name="horizontalSlider.SliderTests">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:horizontalSlider.SliderTests@22a637e7]" started-at="2024-07-27T23:12:54 IST" name="launchApplication" finished-at="2024-07-27T23:12:57 IST" duration-ms="3423" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[launching internet herokuapp website]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="testSlideToNumber()[pri:0, instance:horizontalSlider.SliderTests@22a637e7]" started-at="2024-07-27T23:12:57 IST" name="testSlideToNumber" finished-at="2024-07-27T23:12:58 IST" duration-ms="665" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSlideToNumber -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:horizontalSlider.SliderTests@22a637e7]" started-at="2024-07-27T23:12:58 IST" name="tearDown" finished-at="2024-07-27T23:12:58 IST" duration-ms="109" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[tearDown method - chromedriver shutdown]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- horizontalSlider.SliderTests -->
+      <class name="alerts.AlertTests">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:alerts.AlertTests@7880cdf3]" started-at="2024-07-27T23:12:26 IST" name="launchApplication" finished-at="2024-07-27T23:12:30 IST" duration-ms="4148" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[launching internet herokuapp website]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="testAcceptAlert()[pri:0, instance:alerts.AlertTests@7880cdf3]" started-at="2024-07-27T23:12:30 IST" name="testAcceptAlert" finished-at="2024-07-27T23:12:30 IST" duration-ms="375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAcceptAlert -->
+        <test-method signature="testGetTextFromAlert()[pri:0, instance:alerts.AlertTests@7880cdf3]" started-at="2024-07-27T23:12:30 IST" name="testGetTextFromAlert" finished-at="2024-07-27T23:12:30 IST" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetTextFromAlert -->
+        <test-method signature="testSetInputInAlert()[pri:0, instance:alerts.AlertTests@7880cdf3]" started-at="2024-07-27T23:12:30 IST" name="testSetInputInAlert" finished-at="2024-07-27T23:12:30 IST" duration-ms="51" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetInputInAlert -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:alerts.AlertTests@7880cdf3]" started-at="2024-07-27T23:12:30 IST" name="tearDown" finished-at="2024-07-27T23:12:30 IST" duration-ms="96" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[tearDown method - chromedriver shutdown]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- alerts.AlertTests -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Selenium Test Suite V-1.0 -->
+</testng-results>
