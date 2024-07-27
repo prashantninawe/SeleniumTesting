@@ -13,7 +13,7 @@ public class WaitTests extends BaseTests {
     @Test(priority = 1)
     public void testWaitUntilHidden(){
         DynamicLoadingExample1Page example1Page = homePage.clickDynamicLoading().clickExample1();
-        example1Page.clickStart();git 
+        example1Page.clickStart();
         assertEquals(example1Page.getLoadedText(),"Hello World!");
     }
 
