@@ -13,7 +13,6 @@ public class NavigationTests extends BaseTests {
         getWindowManager().goForward();
         getWindowManager().goTo("https://www.google.com/");
     }
-
     @Test(priority = 2)
     public void testSwitchTab(){
         goHome();
