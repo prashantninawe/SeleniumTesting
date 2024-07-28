@@ -13,6 +13,7 @@
             <class name="keyPresses.KeyTests"/>
             <class name="login.LoginTests"/>
             <class name="wait.WaitTests"/>
+            <class name="javascript.JavaScriptTests"></class>
         </classes>
     </test> <!-- Surefire test -->
 </suite> <!-- Surefire suite -->
