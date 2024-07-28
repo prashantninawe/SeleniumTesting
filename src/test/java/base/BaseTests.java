@@ -1,6 +1,11 @@
 package base;
 
+import com.google.common.io.Files;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.testng.ITestResult;
 import org.testng.Reporter;
+import org.testng.annotations.AfterMethod;
 import pages.HomePage;
 import utils.WindowManager;
 
@@ -12,6 +17,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.io.File;
+import java.io.IOException;
 import java.time.Duration;
 
 public class BaseTests {
@@ -42,5 +49,19 @@ public class BaseTests {
 
     public WindowManager getWindowManager(){
         return new WindowManager(driver);
+    }
+
+    @AfterMethod
+    public void recordFailure(ITestResult result){
+        if(ITestResult.FAILURE == result.getStatus()) {
+            var camera = (TakesScreenshot) driver;
+            File screenshot = camera.getScreenshotAs(OutputType.FILE);
+            try {
+                Files.move(screenshot, new File("C:/Users/ninaw/IdeaProjects/SeleniumTesting/test-output/" +result.getName()+".png"));
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+
     }
 }

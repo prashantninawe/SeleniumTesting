@@ -23,7 +23,7 @@ public class KeyTests extends BaseTests {
     }
 
     @Test
-    public void testPi() throws InterruptedException, AWTException {
+    public void testPi() throws AWTException {
         keyPresses.enterPi();
         System.out.println(keyPresses.getResult());
     }
