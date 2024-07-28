@@ -2,6 +2,7 @@ package base;
 
 import org.testng.Reporter;
 import pages.HomePage;
+import utils.WindowManager;
 
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -37,5 +38,9 @@ public class BaseTests {
     public void goHome(){
         Reporter.log("going back to home page");
         driver.get("https://the-internet.herokuapp.com/");
+    }
+
+    public WindowManager getWindowManager(){
+        return new WindowManager(driver);
     }
 }
