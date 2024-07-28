@@ -6,10 +6,9 @@ import pages.KeyPressesPage;
 import org.openqa.selenium.Keys;
 
 import org.testng.annotations.Test;
+import static org.testng.Assert.assertEquals;
 
 import java.awt.*;
-
-import static org.testng.Assert.assertEquals;
 
 public class KeyTests extends BaseTests {
 
@@ -27,5 +26,4 @@ public class KeyTests extends BaseTests {
         keyPresses.enterPi();
         System.out.println(keyPresses.getResult());
     }
-
 }
